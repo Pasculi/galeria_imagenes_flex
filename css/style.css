@@ -18,7 +18,7 @@ body {
 .gallery {
     width: 90%;
     max-width: 900px;
-    /* overflow: hidden; */
+    overflow: hidden;
     margin: 0 auto;
     padding: var(--height) 0;
     
@@ -43,4 +43,5 @@ body {
     width: 250px;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0 0 10px;
 }
